@@ -14,12 +14,15 @@ body {
     position:relative; transform: translateY(50%);
     color: black;
     font-size: 60px;
+    background-color: lightgrey;
 }
 
 #header > h2 {
     text-align:right;
     font-family: serif;
-    font-size: 45px
+    font-size: 45px;
+    background-color: lightgrey;
+    
 }
 #aside-content-wrapper {
     background-color: plum;
@@ -36,15 +39,16 @@ body {
     margin: 0 50px 0 8px;
     text-align: center;
 }
-#featured-works{
+#works  {
     list-style-type: none;
     display: flex;
     max-height: 200px;
     max-width: 200px;
-    align-content: space-around;
-    align-content: flex-start;
+    align-content:space-between;
+    margin: 25px;
+
 }
-#featured-works > li {
+#works > li {
     padding-top: 15px;
     padding-bottom: 15px;
     width: 100%;
@@ -52,7 +56,7 @@ body {
    
 }
 
-#featured-works > li:before {
+#works > li:before {
     content:"";
     border-color: transparent #008eef;
     border-style:solid;
@@ -63,8 +67,9 @@ body {
     left:-1em;
     top:0.9em;
     position:relative;
-    
-
-
+}
+.img{
+    background-color: red;
+}
 
  
