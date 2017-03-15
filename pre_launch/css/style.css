@@ -18,13 +18,18 @@ body {
     
 }
 
-img{
-    text-align: center;
-}
-h1{
-    text-align: center;
+#header > h2 {
+    text-align:center;
+    font-family: serif;
+    font-size: 45px;
+    background-color: lightgrey;
+    margin-bottom: auto;
+    margin-top: 65px;
+    margin-left: -20px;
+    margin-right: -20px;
   
 }
+
 body{
     background-color:aliceblue;
 }
@@ -57,7 +62,7 @@ h3{
 .featuredimages > .col-md-4 >img{
     max-width: 400px;
     margin: 0 auto;
-   margin-top: 100px;
+   
 }
 .featuredimages > .col-md-4 >img > .h4{
    margin:0 auto;
