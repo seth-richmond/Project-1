@@ -15,6 +15,8 @@ body {
     color: black;
     font-size: 60px;
     background-color: lightgrey;
+    margin: -35px;
+    
 }
 
 #header > h2 {
@@ -23,7 +25,13 @@ body {
     font-size: 45px;
     background-color: lightgrey;
     margin-bottom: auto;
+    margin-top: 65px;
+    margin-left: -20px;
+    margin-right: -20px;
     
+}
+body{
+    background-color:aliceblue;
 }
 #aside-content-wrapper {
     background-color: plum;
@@ -40,17 +48,29 @@ body {
     margin: 0 50px 0 8px;
     text-align: center;
 }
-#works  {
-    list-style-type: none;
-    display: flex;
-    max-height: 200px;
-    max-width: 200px;
-    align-content:space-between;
-    margin: 25px;
-    text-align: center;
 
+
+    
+    
+  
+h3{
+    width:300px;
+    text-align: center;
 }
-#works > li {
+
+.featuredimages > .col-md-4 >img{
+    max-width: 400px;
+    
+}
+   
+
+
+
+/*
+.row > h3{
+    width: 300px;
+}
+.row > li {
     padding-top: 15px;
     padding-bottom: 15px;
     width: 100%;
@@ -58,7 +78,7 @@ body {
    
 }
 
-#works > li:before {
+.row > li:before {
     content:"";
     border-color: transparent #008eef;
     border-style:solid;
@@ -69,6 +89,7 @@ body {
     left:-1em;
     top:0.9em;
     position:relative;
+*/
 }
 .img{
     background-color: red;
