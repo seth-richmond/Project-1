@@ -4,7 +4,6 @@ body {
 }
 
 #header{
-    background-color: none;
     min-height: 150px;
 }
 #header > h1 {
@@ -15,7 +14,7 @@ body {
     color: black;
     font-size: 60px;
     background-color: lightgrey;
-    margin: -35px;
+    margin-top: -100px;
     
 }
 
@@ -28,8 +27,9 @@ body {
     margin-top: 65px;
     margin-left: -20px;
     margin-right: -20px;
-    
+  
 }
+
 body{
     background-color:aliceblue;
 }
@@ -39,7 +39,10 @@ body{
     background-color: #fff;
     margin-top: 50px;
 }
-
+image-content > img{
+    text-align: center;
+    
+}
 #aside-right {
     margin: 0 50px 0 8px;
 }
@@ -49,47 +52,26 @@ body{
     text-align: center;
 }
 
-
-    
-    
-  
 h3{
-    width:300px;
+    width:600px;
+    margin:0 auto;
+    font-weight: 500;
     text-align: center;
 }
 
 .featuredimages > .col-md-4 >img{
     max-width: 400px;
-    
-}
-   
-
-
-
-/*
-.row > h3{
-    width: 300px;
-}
-.row > li {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    width: 100%;
-    border-bottom: 1px black solid;
+    margin: 0 auto;
    
 }
-
-.row > li:before {
-    content:"";
-    border-color: transparent #008eef;
-    border-style:solid;
-    border-width: 0.35em 0 0.35em 0.45em;
-    display: block;
-    height:0;
-    width: 0;
-    left:-1em;
-    top:0.9em;
-    position:relative;
-*/
+.featuredimages > .col-md-4 >img > .h4{
+   margin:0 auto;
+} 
+h4{
+    margin: 20px;
+    text-align: center;
+    width: 600px;
+    height: 500px;
 }
 .img{
     background-color: red;
@@ -105,34 +87,7 @@ h3{
     #secondary { width:100%; margin:0; border:none; }
 }
 img { max-width: 100%; }
-/*
-.button1 {
-    background-color: darkgray; 
-    color: white; 
-    border: 2px solid black;
-    width: 200px;
-    height: 100px;
-    text-align: center;
-}
 
-.button2 {
-    background-color: darkgray; 
-    color: white; 
-    border: 2px solid black;
-    width: 200px;
-    height: 100px;
-    text-align: center;
-}
-
-.button3 {
-    background-color: darkgray; 
-    color: white; 
-    border: 2px solid black;
-    width: 200px;
-    height: 100px;
-    text-align: center;
-}
-*/
 
 .col-1{
     width: 8.33%;
@@ -171,6 +126,3 @@ img { max-width: 100%; }
     width: 100%;
 }
 
-div{
-    text-align: center;
-}
